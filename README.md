@@ -1,5 +1,6 @@
 # Embedded Systems Final Project
 ![img](media/img.jpg)
+
 This was a final project for an Embedded Systems class. The purpose of the project was to be able to have another board communicate with the TI MSP432 board we used for class. In order to do so, documentation, datasheets, and schematics must be read to gain an understanding of how the additional board works.
 
 For this project, an addon board for the MSP432 was chosen that contains a variety of sensors. Specifically, a gyroscope is monitored and when it detects major rotation about the X, Y, or Z axis via UART transmission protocol it will light up an RGB LED on the MSP432 board.
